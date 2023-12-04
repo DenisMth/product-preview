@@ -1,1 +1,78 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  background-color: hsl(30, 38%, 92%);
+}
+
+header {
+  height: 16rem;
+  background-image: url("image-product-desktop.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.carteProduit {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1rem;
+  margin: 1rem 0.5rem 0 0.5rem;
+}
+
+.carteProduit__desc {
+  padding: 1rem 1rem 0 1rem;
+}
+
+h1 {
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.3rem;
+  color: hsl(228, 12%, 48%);
+}
+
+h2 {
+  font-family: Fraunces, sans-serif;
+  color: hsl(212, 21%, 14%);
+  font-size: 2rem;
+  word-spacing: 0.5rem;
+  margin-top: 0.2rem;
+}
+
+p {
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 0.1rem;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.price__original {
+  text-decoration: line-through;
+  padding-left: 1rem;
+  margin-top: 0;
+}
+.price__discount {
+  color: hsl(158, 36%, 37%);
+}
+
+.payButton {
+  background-color: hsl(158, 36%, 37%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  margin: 0 1rem 2rem 1rem;
+}
+.payButton__text {
+  color: hsl(0, 0%, 100%);
+  padding-left: 1rem;
+}
+
+.payButton:hover {
+  background-color: rgb(8, 58, 4);
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
